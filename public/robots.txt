@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.santosdonascimento.com/sitemap.xml`
