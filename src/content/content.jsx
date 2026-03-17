@@ -325,40 +325,11 @@ const content = {
           ),
           container: (
             <>
-              <p className="flex gap-2 items-start">
-                <span>
-                  <Check width={18} />
-                </span>
-                Falta de notificação pessoal do proprietário
-              </p>
-              <br />
-              <p className="flex gap-2 items-start">
-                <span>
-                  <Check width={18} />
-                </span>
-                Irregularidades na consolidação da propriedade
-              </p>
-              <br />
-              <p className="flex gap-2 items-start">
-                <span>
-                  <Check width={18} />
-                </span>
-                Negativa do direito de quitar a dívida antes do leilão
-              </p>
-              <br />
-              <p className="flex gap-2 items-start">
-                <span>
-                  <Check width={18} />
-                </span>
-                Falhas na condução dos leilões exigidos por lei
-              </p>
-              <br />
-              <p className="flex gap-2 items-start">
-                <span>
-                  <Check width={18} />
-                </span>
-                Imóvel vendido por valor muito abaixo do mercado
-              </p>
+              • Falta de notificação pessoal do proprietário <br />
+              • Irregularidades na consolidação da propriedade <br />
+              • Negativa do direito de quitar a dívida antes do leilão <br />•
+              Falhas na condução dos leilões exigidos por lei <br /> • Imóvel
+              vendido por valor muito abaixo do mercado
             </>
           ),
         },
@@ -379,7 +350,10 @@ const content = {
           ),
 
           obs: (
-            <>👉 Em muitos casos, ainda há solução — mas o tempo é decisivo.</>
+            <>
+              👉 Em muitos casos, ainda há solução —{" "}
+              <span className="font-bold">mas o tempo é decisivo</span>.
+            </>
           ),
         },
       },
