@@ -98,7 +98,7 @@ function NavbarNovaTemplate({
               aria-label="recarregar página"
             >
               <img
-                src={content.texts.navbar.logo.img}
+                src={content.texts.navbar.logo.imgDesktop}
                 alt={content.texts.navbar.logo.alt}
                 className="desktop1:hidden w-auto max-h-full object-contain flex"
                 width={300}
@@ -110,7 +110,7 @@ function NavbarNovaTemplate({
                 alt={content.texts.navbar.logo.alt}
                 className="hidden desktop1:block h-full w-auto object-contain"
                 width={300}
-                height={78}
+                height={179}
                 fetchPriority="high"
               />
             </a>
