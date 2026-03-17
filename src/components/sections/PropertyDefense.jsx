@@ -26,7 +26,7 @@ function PropertyDefense({ colorMode }) {
             {listCard.map((item, index) => (
               <div
                 key={index}
-                className="bg-primaryDark/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 max-w-[500px] h-fit"
+                className="bg-terciary backdrop-blur-md border border-white/10 rounded-2xl p-6 max-w-[500px] h-fit"
               >
                 {/* Título */}
                 <div className="bg-white w-fit p-4 rounded-full text-primaryDark shadow mb-4">

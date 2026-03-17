@@ -506,7 +506,7 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
       },
-      ctaButtonText: <>Quero análise do meu caso</>,
+      ctaButtonText: <>Quero analisar meu caso agora</>,
     },
     cardsSection: {
       miniTag: <>A_Definir</>,
@@ -654,8 +654,8 @@ const content = {
       subtitle: (
         <div>
           <p className="mb-6 font-secondFont">
-            Em muitos casos o leilão pode ter irregularidades. Faça uma análise
-            jurídica e entenda se é possível defender seu imóvel.
+            Não espere que a situação se torne irreversível. Quanto antes o caso
+            for analisado, maiores podem ser as possibilidades de defesa.
           </p>
         </div>
       ),
@@ -668,7 +668,7 @@ const content = {
           topic5: <>Agilidade para avaliar medidas urgentes</>,
         },
       },
-      ctaButtonText: <>Quero analisar meu caso</>,
+      ctaButtonText: <>Quero analisar meu caso agora</>,
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
