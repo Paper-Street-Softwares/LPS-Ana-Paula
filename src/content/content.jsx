@@ -162,7 +162,7 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: <>Analisar meu caso</>,
+      ctaButtonText: <>Quero analisar meu caso agora</>,
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
         icon: <> {/* ⚠️ */}</>,
@@ -297,6 +297,92 @@ const content = {
           e o seu patrimônio.
         </>
       ),
+      ctaButtonText: <>Quero analisar meu caso agora</>,
+    },
+    defenseSection: {
+      miniTag: <>Defesa contra leilão de imóvel</>,
+      title: (
+        <>
+          Seu imóvel foi para leilão? Você pode ainda ter o direito de impedir
+          ou anular esse processo.
+        </>
+      ),
+      subtitle: (
+        <>
+          Muitos bancos não seguem todas as regras legais — e isso pode abrir
+          uma oportunidade real de proteger o seu patrimônio.
+        </>
+      ),
+      cards: {
+        card1: {
+          text: (
+            <>
+              Se você está enfrentando um leilão, é importante saber que nem
+              todo procedimento é válido.
+              <br />
+              Na prática, identificamos com frequência erros como:
+            </>
+          ),
+          container: (
+            <>
+              <p className="flex gap-2 items-start">
+                <span>
+                  <Check width={18} />
+                </span>
+                Falta de notificação pessoal do proprietário
+              </p>
+              <br />
+              <p className="flex gap-2 items-start">
+                <span>
+                  <Check width={18} />
+                </span>
+                Irregularidades na consolidação da propriedade
+              </p>
+              <br />
+              <p className="flex gap-2 items-start">
+                <span>
+                  <Check width={18} />
+                </span>
+                Negativa do direito de quitar a dívida antes do leilão
+              </p>
+              <br />
+              <p className="flex gap-2 items-start">
+                <span>
+                  <Check width={18} />
+                </span>
+                Falhas na condução dos leilões exigidos por lei
+              </p>
+              <br />
+              <p className="flex gap-2 items-start">
+                <span>
+                  <Check width={18} />
+                </span>
+                Imóvel vendido por valor muito abaixo do mercado
+              </p>
+            </>
+          ),
+        },
+        card2: {
+          text: (
+            <>
+              Nosso escritório já atuou em mais de 2.000 casos, analisando cada
+              detalhe do processo para encontrar falhas que podem permitir:
+            </>
+          ),
+          container: (
+            <>
+              • Suspender o leilão imediatamente <br />
+              • Anular o leilão já realizado <br />
+              • Recuperar a oportunidade de pagamento da dívida <br />•
+              Questionar judicialmente todo o procedimento
+            </>
+          ),
+
+          obs: (
+            <>👉 Em muitos casos, ainda há solução — mas o tempo é decisivo.</>
+          ),
+        },
+      },
       ctaButtonText: <>Quero analisar meu caso agora</>,
     },
     features: {
