@@ -140,9 +140,9 @@ export default function Index() {
             </Suspense>
           </AlternatingSection>
 
-          {/* <Suspense fallback={null}>
+          <Suspense fallback={null}>
             <WhatsappAnimated colorMode={colorMode} />
-          </Suspense> */}
+          </Suspense>
           {/* <AlternatingSection index={1} colorMode={colorMode}>
             <AuthorityAndAlert />
           </AlternatingSection> */}
