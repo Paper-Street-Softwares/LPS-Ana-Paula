@@ -624,12 +624,17 @@ const content = {
     },
     ctaSection: {
       miniTag: <>ANÁLISE JURÍDICA</>,
-      title: <h1>Seu imóvel foi a leilão? Ainda pode haver solução</h1>,
+      title: (
+        <h1>
+          Não espere que a situação se torne irreversível. Quanto antes o caso
+          for analisado, maiores podem ser as possibilidades de defesa.{" "}
+        </h1>
+      ),
       subtitle: (
         <div>
           <p className="mb-6 font-secondFont">
-            Não espere que a situação se torne irreversível. Quanto antes o caso
-            for analisado, maiores podem ser as possibilidades de defesa.
+            Clique no botão abaixo. Nossa equipe está pronta para analisar o seu
+            caso e te ajudar.
           </p>
         </div>
       ),
