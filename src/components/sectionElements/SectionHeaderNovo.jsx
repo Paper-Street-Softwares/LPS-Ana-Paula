@@ -74,7 +74,7 @@ function SectionHeaderNovo({
 
   return (
     <MotionDivDownToUp>
-      <div className={`w-full mx-auto ${className} ${usage}`}>
+      <div className={`w-full  ${className} ${usage}`}>
         {miniTitle && (
           <span
             className={`font-bold font-secondFont tracking-wider uppercase text-sm lg:text-lg mb-2 block ${miniTag}`}

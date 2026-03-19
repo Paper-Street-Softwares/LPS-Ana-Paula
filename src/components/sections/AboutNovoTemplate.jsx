@@ -108,7 +108,7 @@ function AboutNovoTemplate({ ButtonModal, colorMode, benefits }) {
                   />
                   <MotionDivDownToUp>
                     <p
-                      className={`font-secondFont font-light text-sm tablet1:text-lg leading-relaxed mt-6 ${textOpacity}`}
+                      className={`font-secondFont font-light text-base tablet1:text-lg leading-relaxed mt-6 text-black`}
                     >
                       {content.texts.about.paragraph}
                     </p>
@@ -262,7 +262,7 @@ function AboutNovoTemplate({ ButtonModal, colorMode, benefits }) {
               />
             }
             header={
-              <span className={`font-secondFont px-4 ${text}`}>
+              <span className={`font-secondFont md:px-4 ${text}`}>
                 {content.texts.about.FirstPart} {content.texts.about.Destaque}{" "}
                 {content.texts.about.SecondPart}
               </span>
@@ -276,8 +276,8 @@ function AboutNovoTemplate({ ButtonModal, colorMode, benefits }) {
               "641px": "85vw",
             }}
           >
-            <div className="text-paragraph3 px-4 pb-4">
-              <p className={`mt-[15px] mb-[20px] ${textOpacityModal}`}>
+            <div className="phone3:text-md md:text-lg px-4 pb-4">
+              <p className={`mt-[15px] mb-[20px] text-black`}>
                 {content.texts.about.modal}
               </p>
               <ButtonReflexo
