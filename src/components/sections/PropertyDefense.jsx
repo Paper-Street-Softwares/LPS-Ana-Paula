@@ -25,8 +25,13 @@ function PropertyDefense({ colorMode }) {
           <p
             className={`flex justify-center text-xl font-secondFont text-center text-white w-full mb-12  max-w-[600px] bg-primaryDark p-8 rounded-2xl`}
           >
-            Muitos bancos não seguem todas as regras legais — e isso pode abrir
-            uma oportunidade real de proteger o seu patrimônio.
+            <p>
+              <span className="text-primaryLight font-bold">
+                Muitos bancos não seguem todas as regras legais
+              </span>
+              <br />— e isso pode abrir uma oportunidade real de proteger o seu
+              patrimônio.
+            </p>
           </p>
         </MotionDivDownToUp>
 

@@ -59,11 +59,13 @@ function Important({ colorMode }) {
         </div>
 
         <MotionDivDownUp>
-          <p
-            className={`flex justify-center text-xl font-secondFont text-center text-white w-full my-12 ${textOpacity} max-w-[600px] bg-primaryDark p-8 rounded-2xl`}
-          >
-            {content.texts.important.fraseObs}
-          </p>
+          <div className="border-[1px] border-solid border-destaques p-4 rounded-xl my-10">
+            <p
+              className={`flex justify-center text-xl font-secondFont text-center text-black w-full max-w-[600px] bg-white rounded-2xl`}
+            >
+              {content.texts.important.fraseObs}
+            </p>
+          </div>
         </MotionDivDownUp>
 
         <MotionDivDownUp>

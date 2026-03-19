@@ -77,7 +77,7 @@ function SectionHeaderNovo({
       <div className={`w-full  ${className} ${usage}`}>
         {miniTitle && (
           <span
-            className={`font-bold font-secondFont tracking-wider uppercase text-sm lg:text-md mb-2 block ${miniTag}`}
+            className={`font-bold font-secondFont tracking-wider uppercase text-sm lg:text-md mb-2 block text-destaques`}
           >
             {miniTitle}
           </span>

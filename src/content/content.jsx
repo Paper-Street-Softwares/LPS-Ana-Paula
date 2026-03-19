@@ -177,10 +177,11 @@ const content = {
         icon: <> {/* ⚠️ */}</>,
         iconTwo: <></>,
         text: (
-          <>
-            Análise jurídica para verificar possíveis irregularidades no leilão
-            do seu imóvel.
-          </>
+          <p>
+            Análise jurídica para verificar{" "}
+            <span className="underline">possíveis irregularidades</span> no
+            leilão do seu imóvel.
+          </p>
         ),
         textTwo: <>A_Definir</>,
       },
@@ -223,9 +224,10 @@ const content = {
     important: {
       miniTag: <>ATENÇÃO</>,
       title: (
-        <>
-          Se você está passando por alguma dessas situações, podemos te ajudar
-        </>
+        <p>
+          Se você está passando por alguma dessas situações,{" "}
+          <strong>podemos te ajudar</strong>!
+        </p>
       ),
       cards: {
         card1: {
@@ -298,13 +300,15 @@ const content = {
         },
       },
       fraseObs: (
-        <>
-          Você não precisa enfrentar essa situação sozinho.
+        <p>
+          <span className="text-destaques font-bold">
+            Você não precisa enfrentar essa situação sozinho!
+          </span>
           <br />
           Com a análise jurídica adequada, é possível verificar a legalidade do
-          procedimento e buscar as medidas cabíveis para proteger seus direitos
-          e o seu patrimônio.
-        </>
+          procedimento e buscar as medidas cabíveis para{" "}
+          <strong>proteger seus direitos e o seu patrimônio.</strong>
+        </p>
       ),
       ctaButtonText: (
         <>
@@ -315,10 +319,10 @@ const content = {
     defenseSection: {
       miniTag: <>Defesa contra leilão de imóvel</>,
       title: (
-        <>
-          Seu imóvel foi para leilão? Você pode ainda ter o direito de impedir
-          ou anular esse processo.
-        </>
+        <p>
+          Seu imóvel foi para leilão? Você pode ainda ter o direito de{" "}
+          <strong>impedir ou anular esse processo.</strong>
+        </p>
       ),
       cards: {
         card1: {
