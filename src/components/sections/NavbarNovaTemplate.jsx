@@ -130,7 +130,7 @@ function NavbarNovaTemplate({
                       aria-label={`Link para ${item}`}
                       title={item}
                       data-track={id}
-                      className={`cursor-pointer ${hoverLinks} bg-[length:0%_2px] bg-no-repeat bg-left-bottom pb-1 transition-[background-size] duration-300 hover:bg-[length:100%_2px] ${textOpacity} font-secondFont`}
+                      className={`cursor-pointer ${hoverLinks} bg-[length:0%_2px] text-[16px] bg-no-repeat bg-left-bottom pb-1 transition-[background-size] duration-300 hover:bg-[length:100%_2px] ${textOpacity} font-secondFont`}
                       onClick={(e) => {
                         e.preventDefault();
                         const el = document.getElementById(id);
@@ -157,8 +157,8 @@ function NavbarNovaTemplate({
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width={18}
-                  height={18}
+                  width={26}
+                  height={26}
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -166,7 +166,7 @@ function NavbarNovaTemplate({
                 </svg>
               }
               colorMode={colorMode}
-              className="clickevent text-sm mb-0"
+              className="clickevent text-sm mb-0 "
             />
           </div>
 

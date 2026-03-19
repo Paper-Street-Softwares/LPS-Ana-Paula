@@ -146,13 +146,13 @@ function HeroTemplateNovo({
               className="space-y-2 phone3:space-y-4 order-2 lg:order-1 flex flex-col items-start desktop1:items-start"
             >
               <div
-                className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border shadow-sm text-[8px] phone2:text-xs font-secondFont font-bold tracking-wide uppercase ${bgMinitag}`}
+                className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border shadow-sm text-[12px] phone2:text-xs font-secondFont font-bold tracking-wide uppercase ${bgMinitag}`}
               >
                 <span>{content.texts.hero.minitagIcon}</span>
                 {content.texts.hero.miniTag}
               </div>
               <h1
-                className={` text-[22px] phone2:text-3xl phone3:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium leading-[1.1] desktop1:text-start ${text} `}
+                className={` text-[30px] phone3:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium leading-[1.1] desktop1:text-start ${text} `}
               >
                 {content.texts.hero.FirstPart}{" "}
                 <span className={`${textDestaque}`}>
@@ -162,7 +162,7 @@ function HeroTemplateNovo({
               </h1>
 
               <p
-                className={`text-start text-[14px] phone2:text-lg md:text-xl leading-relaxed max-w-lg font-secondFont font-extralight desktop1:text-start ${textOpacity}`}
+                className={`text-start phone2:text-lg phone3:text-xl leading-6 max-w-lg font-secondFont font-extralight desktop1:text-start ${textOpacity}`}
               >
                 {content.texts.hero.subtitle}
               </p>
@@ -183,8 +183,8 @@ function HeroTemplateNovo({
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width={18}
-                      height={18}
+                      width={26}
+                      height={26}
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -192,9 +192,14 @@ function HeroTemplateNovo({
                     </svg>
                   }
                   link={content.texts.links.ctaWhatsapp}
-                  label={content.texts.hero.ctaButtonText}
+                  label={
+                    <p>
+                      Quero analisar <br className="block phone2:hidden" /> meu
+                      caso agora
+                    </p>
+                  }
                   colorMode={colorMode}
-                  className="clickevent my-0 text-[8px] phone2:text-paragraph3 tablet1:text-paragraph4"
+                  className="clickevent my-0 text-paragraph4 tablet1:text-paragraph4"
                 />
 
                 <ButtonReflexo
@@ -218,7 +223,7 @@ function HeroTemplateNovo({
                   </div>
                   {content.texts.hero.obsHero.icon}
                   <span
-                    className={`font-secondFont font-light flex gap-2 items-center ${textOpacity}`}
+                    className={`font-secondFont text-lg font-light flex gap-2 items-center ${textOpacity}`}
                   >
                     {content.texts.hero.obsHero.text}
                   </span>

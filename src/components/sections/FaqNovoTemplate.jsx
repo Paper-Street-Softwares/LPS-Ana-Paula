@@ -73,16 +73,20 @@ function FaqNovoTemplate({ colorMode }) {
                   <AccordionItem
                     key={idx}
                     value={`item-${idx}`}
-                    className={`border-b  ${colorMode === "light" || colorMode === "defaultDark" ? "border-black/30" : "border-white/30"}`}
+                    className={`border-b  ${
+                      colorMode === "light" || colorMode === "defaultDark"
+                        ? "border-black/30"
+                        : "border-white/30"
+                    }`}
                   >
                     <AccordionTrigger
                       colorMode={colorMode}
-                      className={`text-lg font-medium font-secondFont text-left py-6 ${text}`}
+                      className={`text-xl font-bold font-secondFont text-left py-6 ${text}`}
                     >
                       {faq.question}
                     </AccordionTrigger>
                     <AccordionContent
-                      className={`font-secondFont font-light pb-6 leading-relaxed ${textOpacity}`}
+                      className={`font-secondFont text-lg font-light pb-6 leading-relaxed text-black`}
                     >
                       {faq.answer}
                     </AccordionContent>

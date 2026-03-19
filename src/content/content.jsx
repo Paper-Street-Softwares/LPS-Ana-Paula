@@ -152,8 +152,13 @@ const content = {
       ),
       SecondPart: <span></span>,
       subtitle: (
-        <p>
-          Saiba quando o leilão pode ser anulado e como proteger seu patrimônio.
+        <p className="">
+          Saiba quando{" "}
+          <span className="text-primaryLight font-bold">
+            {" "}
+            o leilão pode ser anulado
+          </span>{" "}
+          e como proteger seu patrimônio.
         </p>
       ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
@@ -162,16 +167,17 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: <>Quero analisar meu caso agora</>,
+      ctaButtonText: <p>Quero analisar meu caso agora</p>,
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
         icon: <> {/* ⚠️ */}</>,
         iconTwo: <></>,
         text: (
-          <>
-            Análise jurídica para verificar possíveis irregularidades no leilão
-            do seu imóvel.
-          </>
+          <p>
+            Análise jurídica para verificar{" "}
+            <span className="underline">possíveis irregularidades</span> no
+            leilão do seu imóvel.
+          </p>
         ),
         textTwo: <>A_Definir</>,
       },
@@ -214,9 +220,10 @@ const content = {
     important: {
       miniTag: <>ATENÇÃO</>,
       title: (
-        <>
-          Se você está passando por alguma dessas situações, podemos te ajudar
-        </>
+        <p>
+          Se você está passando por alguma dessas situações,{" "}
+          <strong>podemos te ajudar</strong>!
+        </p>
       ),
       cards: {
         card1: {
@@ -289,29 +296,25 @@ const content = {
         },
       },
       fraseObs: (
-        <>
-          Você não precisa enfrentar essa situação sozinho.
+        <p>
+          <span className="text-destaques font-bold uppercase">
+            Você não precisa enfrentar essa situação sozinho!
+          </span>
           <br />
           Com a análise jurídica adequada, é possível verificar a legalidade do
-          procedimento e buscar as medidas cabíveis para proteger seus direitos
-          e o seu patrimônio.
-        </>
+          procedimento e buscar as medidas cabíveis para{" "}
+          <strong>proteger seus direitos e o seu patrimônio.</strong>
+        </p>
       ),
       ctaButtonText: <>Quero analisar meu caso agora</>,
     },
     defenseSection: {
       miniTag: <>Defesa contra leilão de imóvel</>,
       title: (
-        <>
-          Seu imóvel foi para leilão? Você pode ainda ter o direito de impedir
-          ou anular esse processo.
-        </>
-      ),
-      subtitle: (
-        <>
-          Muitos bancos não seguem todas as regras legais — e isso pode abrir
-          uma oportunidade real de proteger o seu patrimônio.
-        </>
+        <p>
+          Seu imóvel foi para leilão? Você pode ainda ter o direito de{" "}
+          <strong>impedir ou anular esse processo.</strong>
+        </p>
       ),
       cards: {
         card1: {
@@ -325,7 +328,8 @@ const content = {
           ),
           container: (
             <>
-              • Falta de notificação pessoal do proprietário <br />
+              • Falta de notificação pessoal do proprietário
+              <br />
               • Irregularidades na consolidação da propriedade <br />
               • Negativa do direito de quitar a dívida antes do leilão <br />•
               Falhas na condução dos leilões exigidos por lei <br /> • Imóvel
@@ -361,11 +365,17 @@ const content = {
     },
     features: {
       miniTag: <>Atuação Jurídica</>,
-      FirstPart: <span>Nossa atuação em</span>,
-      Destaque: <span className="italic font-light">leilões</span>,
-      SecondPart: <span>de imóveis</span>,
+      FirstPart: (
+        <p>
+          Nossa atuação em <strong>Leilões de Imóveis</strong>
+        </p>
+      ),
+
       subtitle: (
-        <>Conheça as áreas em que atuamos na defesa de proprietários.</>
+        <p>
+          Conheça as áreas em que atuamos na{" "}
+          <strong>defesa de proprietários.</strong>
+        </p>
       ),
       imgFeatures: imgFeatures,
       alt: "Imagem ilustrativa da Features",
@@ -533,11 +543,18 @@ const content = {
         alt: "Imagem ilustrativa da Seção Sobre",
       },
       miniTag: <>QUEM É A DRA. ANA PAULA NASCIMENTO</>,
-      FirstPart: <span> Conheça a Advogada que irá </span>,
-      Destaque: <span className="italic font-light"> conduzir</span>,
-      SecondPart: <span>o seu caso</span>,
+      FirstPart: (
+        <p>
+          Conheça a Advogada que irá <strong>conduzir</strong> o seu caso
+        </p>
+      ),
+
       subtitle: (
-        <>Advogada especialista em leilões de imóveis e conflitos com bancos.</>
+        <p>
+          <strong>
+            Advogada especialista em leilões de imóveis e conflitos com bancos.
+          </strong>
+        </p>
       ),
       paragraph: (
         <div>
@@ -626,15 +643,19 @@ const content = {
       miniTag: <>ANÁLISE JURÍDICA</>,
       title: (
         <h1>
-          Não espere que a situação se torne irreversível. Quanto antes o caso
-          for analisado, maiores podem ser as possibilidades de defesa.{" "}
+          <span className="font-bold">
+            Não espere que a situação se torne irreversível.
+          </span>
+          <br />
+          Quanto antes o caso for analisado, maiores podem ser as possibilidades
+          de defesa.{" "}
         </h1>
       ),
       subtitle: (
         <div>
-          <p className="mb-6 font-secondFont">
-            Clique no botão abaixo. Nossa equipe está pronta para analisar o seu
-            caso e te ajudar.
+          <p className="mb-6 font-secondFont text-primaryLight uppercase">
+            Clique no botão abaixo! <br />
+            Nossa equipe está pronta para analisar o seu caso e te ajudar.
           </p>
         </div>
       ),
@@ -653,15 +674,19 @@ const content = {
     },
     depositions: {
       miniTag: <>Resultados reais</>,
-      FirstPart: <span>Alguns casos solucionados </span>,
+      FirstPart: (
+        <p>
+          Alguns casos <strong>solucionados</strong>
+        </p>
+      ),
       Destaque: <span className="italic font-light"> </span>,
       SecondPart: <span></span>,
       subtitle: (
-        <>
-          Clientes que enfrentavam problemas com financiamento e leilão de
-          imóveis e conseguiram resolver a situação após uma análise
-          especializada.
-        </>
+        <p>
+          <strong>Clientes que enfrentavam problemas</strong> com financiamento
+          e leilão de imóveis e <strong>conseguiram resolver</strong> a situação
+          após uma análise especializada.
+        </p>
       ),
       imagens: {
         img1: {
@@ -1519,8 +1544,8 @@ const content = {
       wpp: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width={18}
-          height={18}
+          width={26}
+          height={26}
           fill="currentColor"
           viewBox="0 0 24 24"
         >

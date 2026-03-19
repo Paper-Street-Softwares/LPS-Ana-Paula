@@ -171,12 +171,12 @@ function StepsNovoTemplate({ colorMode }) {
                       </div>
                       <div className="pt-2">
                         <h1
-                          className={`text-xl font-bold mb-2 font-secondFont ${text}`}
+                          className={`text-xl font-bold mb-2 font-secondFont text-destaques`}
                         >
                           {item.cardTitle}
                         </h1>
                         <p
-                          className={`text-sm font-light font-secondFont ${textOpacity}`}
+                          className={`text-lg font-light font-secondFont text-black`}
                         >
                           {item.cardDescription}
                         </p>
@@ -193,8 +193,8 @@ function StepsNovoTemplate({ colorMode }) {
                       icon={
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          width={18}
-                          height={18}
+                          width={26}
+                          height={26}
                           fill="currentColor"
                           viewBox="0 0 24 24"
                         >

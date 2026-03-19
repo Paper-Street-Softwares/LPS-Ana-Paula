@@ -28,12 +28,12 @@ export default function ButtonReflexo({
     variant === "secondary"
       ? "shadow-none"
       : isLigar
-        ? "shadow-red-500/30"
-        : effectiveWhatsAppColor
-          ? "shadow-wppLight/30"
-          : colorMode === "dark"
-            ? "shadow-primaryLight/20"
-            : "shadow-primaryDark/20";
+      ? "shadow-red-500/30"
+      : effectiveWhatsAppColor
+      ? "shadow-wppLight/30"
+      : colorMode === "dark"
+      ? "shadow-primaryLight/20"
+      : "shadow-primaryDark/20";
 
   const shineThemes = {
     light: "bg-white/40",
@@ -51,15 +51,15 @@ export default function ButtonReflexo({
   const primaryColors = resolvedTheme
     ? resolvedTheme[colorMode]
     : effectiveWhatsAppColor
-      ? whatsAppThemes[colorMode]
-      : (bgClass ?? defaultButtonThemes[colorMode]);
+    ? whatsAppThemes[colorMode]
+    : bgClass ?? defaultButtonThemes[colorMode];
 
   const secondaryColors = bgClass ?? defaultButtonThemesSecondary[colorMode];
 
   const colors = variant === "secondary" ? secondaryColors : primaryColors;
 
   const shineColor = shineClass ?? shineThemes[colorMode];
-  const spacing = padding || "px-6 py-3";
+  const spacing = padding || "px-8 py-6 md:px-10 md:py-6";
 
   if (id === "ligar" && !showGlobalButton && !emergency) {
     return null;
@@ -75,10 +75,10 @@ export default function ButtonReflexo({
         relative overflow-hidden inline-flex items-center justify-center
         ${colors}
         ${spacing}
-        font-normal font-secondFont rounded-full text-lg
+        font-normal font-secondFont rounded-3xl text-lg
         transition-all scale-100 hover:scale-90 duration-500
         ${shadowClass}
-        gap-3 text-paragraph3 tablet1:text-paragraph4
+        gap-3 text-paragraph2 tablet1:text-title1
         min-w-[10px] text-center cursor-pointer
       `}
       {...props}
@@ -94,7 +94,7 @@ export default function ButtonReflexo({
       )}
 
       <span className="relative z-10 flex items-center gap-3">
-        {icon && <span>{icon}</span>}
+        {icon && <span className="">{icon}</span>}
         {label}
       </span>
     </a>

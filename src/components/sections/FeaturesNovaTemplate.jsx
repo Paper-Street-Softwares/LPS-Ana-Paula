@@ -136,7 +136,7 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
                       <p className="font-secondFont text-2xl font-bold mb-2">
                         {content.texts.features.titleMessageFeature}
                       </p>
-                      <p className="text-sm font-secondFont font-light">
+                      <p className="text-sm md:text-lg font-secondFont font-light">
                         {content.texts.features.subtitleMessageFeature}
                       </p>
                     </div>
@@ -149,8 +149,8 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
                         icon={
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            width={18}
-                            height={18}
+                            width={26}
+                            height={26}
                             fill="currentColor"
                             viewBox="0 0 24 24"
                           >
@@ -265,12 +265,12 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
                             {feature.icon}
                           </div>
                           <h1
-                            className={`font-secondFont font-bold text-lg mb-2 ${text} transition-all`}
+                            className={`font-secondFont font-bold text-xl mb-2 text-destaques transition-all`}
                           >
                             {feature.title}
                           </h1>
                           <p
-                            className={`text-sm font-secondFont font-light ${textOpacity} transition-all`}
+                            className={`text-lg font-secondFont font-light text-black leading-6 transition-all`}
                           >
                             {feature.subtitle}
                           </p>

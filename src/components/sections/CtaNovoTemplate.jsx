@@ -47,7 +47,7 @@ function CtaNovoTemplate({ colorMode, container }) {
   }
 
   const containerList = Object.values(
-    content.texts.ctaSection.container.topics,
+    content.texts.ctaSection.container.topics
   );
 
   return (
@@ -57,17 +57,17 @@ function CtaNovoTemplate({ colorMode, container }) {
         <section className="relative text-center">
           <MotionDivDownToUp className="container mx-auto">
             <span
-              className={`font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block ${miniTagCtaDark}`}
+              className={`font-bold font-secondFont tracking-wider uppercase text-[14px] mb-2 block ${miniTagCtaDark}`}
             >
               {content.texts.ctaSection.miniTag}
             </span>
             <h2
-              className={`text-4xl md:text-[48px] leading-[48px] font-mainFont font-light mb-6 ${text}`}
+              className={`text-4xl md:text-[48px] leading-10 md:leading-[48px] font-mainFont font-light mb-6 ${text}`}
             >
               {content.texts.ctaSection.title}
             </h2>
             <p
-              className={`text-lg font-secondFont font-light md:text-xl max-w-2xl mx-auto mb-10 ${textOpacity}`}
+              className={`text-lg font-secondFont font-light md:text-xl max-w-2xl mx-auto mb-10 text-white`}
             >
               {content.texts.ctaSection.subtitle}
             </p>
@@ -99,8 +99,8 @@ function CtaNovoTemplate({ colorMode, container }) {
                 icon={
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width={18}
-                    height={18}
+                    width={26}
+                    height={26}
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >

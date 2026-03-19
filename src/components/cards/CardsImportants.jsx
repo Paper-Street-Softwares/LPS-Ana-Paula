@@ -78,20 +78,20 @@ function CardsImportants({
     <MotionDivDownToUp>
       <div className="grid">
         <div
-          className={`group p-6 rounded-xl ${cardBg} hover:scale-105 transition-all duration-700 max-w-[500px]`}
+          className={`group p-6 rounded-xl bg-primaryDark hover:scale-105 transition-all duration-700 max-w-[500px]`}
         >
           <div
-            className={`w-10 h-10 rounded-full ${iconBg} mb-4 flex items-center justify-center shadow-md transition-transform`}
+            className={`w-10 h-10 rounded-full text-primaryDark bg-white mb-4 flex items-center justify-center shadow-md transition-transform`}
           >
             <h1 className="font-bold text-3xl">!</h1>
           </div>
           <h1
-            className={`font-secondFont font-bold text-lg mb-2 ${text} transition-all`}
+            className={`font-secondFont font-bold text-xl leading-6 mb-2 text-primaryLight transition-all`}
           >
             {title}
           </h1>
           <p
-            className={`text-sm font-secondFont font-light ${textOpacity} transition-all`}
+            className={`text-md font-secondFont text-lg leading-6 font-light text-white transition-all`}
           >
             {paragraph}
           </p>
