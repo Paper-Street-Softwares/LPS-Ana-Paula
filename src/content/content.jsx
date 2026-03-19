@@ -167,11 +167,7 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: (
-        <>
-          Quero analisar <br /> meu caso agora
-        </>
-      ),
+      ctaButtonText: <>Quero analisar meu caso agora</>,
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
         icon: <> {/* ⚠️ */}</>,
@@ -310,11 +306,7 @@ const content = {
           <strong>proteger seus direitos e o seu patrimônio.</strong>
         </p>
       ),
-      ctaButtonText: (
-        <>
-          Quero analisar <br /> meu caso agora
-        </>
-      ),
+      ctaButtonText: <>Quero analisar meu caso agora</>,
     },
     defenseSection: {
       miniTag: <>Defesa contra leilão de imóvel</>,
@@ -369,11 +361,7 @@ const content = {
           ),
         },
       },
-      ctaButtonText: (
-        <>
-          Quero analisar <br /> meu caso agora
-        </>
-      ),
+      ctaButtonText: <>Quero analisar meu caso agora</>,
     },
     features: {
       miniTag: <>Atuação Jurídica</>,
@@ -502,11 +490,7 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
       },
-      ctaButtonText: (
-        <>
-          Quero analisar <br /> meu caso agora
-        </>
-      ),
+      ctaButtonText: <>Quero analisar meu caso agora</>,
     },
     cardsSection: {
       miniTag: <>A_Definir</>,
@@ -609,11 +593,7 @@ const content = {
           },
         },
       },
-      ctaButtonText: (
-        <>
-          Falar diretamente <br /> comigo
-        </>
-      ),
+      ctaButtonText: <>Falar diretamente comigo</>,
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p className="font-secondFont">
@@ -688,12 +668,7 @@ const content = {
           topic5: <>Agilidade para avaliar medidas urgentes</>,
         },
       },
-      ctaButtonText: (
-        <>
-          Quero analisar <br />
-          meu caso agora
-        </>
-      ),
+      ctaButtonText: <>Quero analisar meu caso agora</>,
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -770,11 +745,7 @@ const content = {
           cardDescription: <>Se houver irregularidade, iniciamos as medidas.</>,
         },
       },
-      ctaButtonText: (
-        <>
-          Entrar em contato <br /> agora
-        </>
-      ),
+      ctaButtonText: <>Entrar em contato agora</>,
     },
     blog: {
       miniTag: <>A_Definir</>,
@@ -1573,8 +1544,8 @@ const content = {
       wpp: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width={18}
-          height={18}
+          width={26}
+          height={26}
           fill="currentColor"
           viewBox="0 0 24 24"
         >
