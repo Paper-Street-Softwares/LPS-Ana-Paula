@@ -77,7 +77,7 @@ function SectionHeaderNovo({
       <div className={`w-full mx-auto ${className} ${usage}`}>
         {miniTitle && (
           <span
-            className={`font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block ${miniTag}`}
+            className={`font-bold font-secondFont tracking-wider uppercase text-sm lg:text-lg mb-2 block ${miniTag}`}
           >
             {miniTitle}
           </span>
@@ -85,7 +85,7 @@ function SectionHeaderNovo({
 
         {title && (
           <h2
-            className={`text-3xl md:text-4xl font-mainFont font-medium mb-4 ${text}`}
+            className={`text-4xl md:text-5xl font-mainFont font-medium mb-4 ${text}`}
           >
             {title} <span className={`italic ${textDestaque}`}>{destaque}</span>{" "}
             {secondPart}
@@ -93,9 +93,7 @@ function SectionHeaderNovo({
         )}
 
         {subtitle && (
-          <p className={`font-secondFont font-light ${textOpacity}`}>
-            {subtitle}
-          </p>
+          <p className={`font-secondFont text-xl  text-black`}>{subtitle}</p>
         )}
       </div>
     </MotionDivDownToUp>

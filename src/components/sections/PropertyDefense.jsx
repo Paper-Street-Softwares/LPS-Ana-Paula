@@ -41,20 +41,20 @@ function PropertyDefense({ colorMode }) {
                 <div className="bg-white w-fit p-4 rounded-full text-primaryDark shadow mb-4">
                   <Shield />
                 </div>
-                <h1 className="text-lg font-secondFont font-semibold mb-4 text-corOutrosTextosPreto group-hover:text-corOutrosTextosPreto/90">
+                <h1 className="text-xl leading-6 font-secondFont font-semibold mb-4 text-black group-hover:text-corOutrosTextosPreto/90">
                   {item.text}
                 </h1>
 
                 {/* Conteúdo principal */}
-                <div className=" text-corOutrosTextosPreto/80 mb-3">
-                  <span className="text-sm font-secondFont">
+                <div className=" text-black">
+                  <span className="text-lg font-secondFont">
                     {item.container}
                   </span>
                 </div>
 
                 {/* Observação */}
                 {item.obs && (
-                  <p className="text-xs font-secondFont text-corOutrosTextosPreto leading-relaxed">
+                  <p className="mt-4 text-base font-secondFont text-black leading-relaxed">
                     {item.obs}
                   </p>
                 )}
