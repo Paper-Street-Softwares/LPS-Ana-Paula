@@ -171,7 +171,7 @@ function StepsNovoTemplate({ colorMode }) {
                       </div>
                       <div className="pt-2">
                         <h1
-                          className={`text-xl font-bold mb-2 font-secondFont ${text}`}
+                          className={`text-xl font-bold mb-2 font-secondFont text-destaques`}
                         >
                           {item.cardTitle}
                         </h1>

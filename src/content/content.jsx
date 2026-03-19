@@ -301,7 +301,7 @@ const content = {
       },
       fraseObs: (
         <p>
-          <span className="text-destaques font-bold">
+          <span className="text-destaques font-bold uppercase">
             Você não precisa enfrentar essa situação sozinho!
           </span>
           <br />
@@ -377,11 +377,17 @@ const content = {
     },
     features: {
       miniTag: <>Atuação Jurídica</>,
-      FirstPart: <span>Nossa atuação em</span>,
-      Destaque: <span className="italic font-light">leilões</span>,
-      SecondPart: <span>de imóveis</span>,
+      FirstPart: (
+        <p>
+          Nossa atuação em <strong>Leilões de Imóveis</strong>
+        </p>
+      ),
+
       subtitle: (
-        <>Conheça as áreas em que atuamos na defesa de proprietários.</>
+        <p>
+          Conheça as áreas em que atuamos na{" "}
+          <strong>defesa de proprietários.</strong>
+        </p>
       ),
       imgFeatures: imgFeatures,
       alt: "Imagem ilustrativa da Features",
@@ -553,11 +559,18 @@ const content = {
         alt: "Imagem ilustrativa da Seção Sobre",
       },
       miniTag: <>QUEM É A DRA. ANA PAULA NASCIMENTO</>,
-      FirstPart: <span> Conheça a Advogada que irá </span>,
-      Destaque: <span className="italic font-light"> conduzir</span>,
-      SecondPart: <span>o seu caso</span>,
+      FirstPart: (
+        <p>
+          Conheça a Advogada que irá <strong>conduzir</strong> o seu caso
+        </p>
+      ),
+
       subtitle: (
-        <>Advogada especialista em leilões de imóveis e conflitos com bancos.</>
+        <p>
+          <strong>
+            Advogada especialista em leilões de imóveis e conflitos com bancos.
+          </strong>
+        </p>
       ),
       paragraph: (
         <div>
@@ -650,15 +663,19 @@ const content = {
       miniTag: <>ANÁLISE JURÍDICA</>,
       title: (
         <h1>
-          Não espere que a situação se torne irreversível. Quanto antes o caso
-          for analisado, maiores podem ser as possibilidades de defesa.{" "}
+          <span className="font-bold">
+            Não espere que a situação se torne irreversível.
+          </span>
+          <br />
+          Quanto antes o caso for analisado, maiores podem ser as possibilidades
+          de defesa.{" "}
         </h1>
       ),
       subtitle: (
         <div>
-          <p className="mb-6 font-secondFont">
-            Clique no botão abaixo. Nossa equipe está pronta para analisar o seu
-            caso e te ajudar.
+          <p className="mb-6 font-secondFont text-primaryLight uppercase">
+            Clique no botão abaixo! <br />
+            Nossa equipe está pronta para analisar o seu caso e te ajudar.
           </p>
         </div>
       ),
@@ -682,15 +699,19 @@ const content = {
     },
     depositions: {
       miniTag: <>Resultados reais</>,
-      FirstPart: <span>Alguns casos solucionados </span>,
+      FirstPart: (
+        <p>
+          Alguns casos <strong>solucionados</strong>
+        </p>
+      ),
       Destaque: <span className="italic font-light"> </span>,
       SecondPart: <span></span>,
       subtitle: (
-        <>
-          Clientes que enfrentavam problemas com financiamento e leilão de
-          imóveis e conseguiram resolver a situação após uma análise
-          especializada.
-        </>
+        <p>
+          <strong>Clientes que enfrentavam problemas</strong> com financiamento
+          e leilão de imóveis e <strong>conseguiram resolver</strong> a situação
+          após uma análise especializada.
+        </p>
       ),
       imagens: {
         img1: {

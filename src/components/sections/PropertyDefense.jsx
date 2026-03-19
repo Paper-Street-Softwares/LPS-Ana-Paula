@@ -43,7 +43,7 @@ function PropertyDefense({ colorMode }) {
                 className="bg-terciary backdrop-blur-md border border-white/10 rounded-2xl p-6 max-w-[500px] h-fit"
               >
                 {/* Título */}
-                <div className="bg-white w-fit p-4 rounded-full text-primaryDark shadow mb-4">
+                <div className="bg-primaryDark w-fit p-4 rounded-full text-primaryLight shadow mb-4">
                   <Shield />
                 </div>
                 <h1 className="text-xl leading-6 font-secondFont font-semibold mb-4 text-black group-hover:text-corOutrosTextosPreto/90">

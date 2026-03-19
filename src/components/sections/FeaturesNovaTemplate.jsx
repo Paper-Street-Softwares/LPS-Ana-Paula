@@ -265,7 +265,7 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, accordion, modal }) {
                             {feature.icon}
                           </div>
                           <h1
-                            className={`font-secondFont font-bold text-xl mb-2 ${text} transition-all`}
+                            className={`font-secondFont font-bold text-xl mb-2 text-destaques transition-all`}
                           >
                             {feature.title}
                           </h1>
