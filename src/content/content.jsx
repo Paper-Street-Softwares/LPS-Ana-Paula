@@ -152,8 +152,13 @@ const content = {
       ),
       SecondPart: <span></span>,
       subtitle: (
-        <p>
-          Saiba quando o leilão pode ser anulado e como proteger seu patrimônio.
+        <p className="">
+          Saiba quando{" "}
+          <span className="text-primaryLight font-bold">
+            {" "}
+            o leilão pode ser anulado
+          </span>{" "}
+          e como proteger seu patrimônio.
         </p>
       ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
@@ -313,12 +318,6 @@ const content = {
         <>
           Seu imóvel foi para leilão? Você pode ainda ter o direito de impedir
           ou anular esse processo.
-        </>
-      ),
-      subtitle: (
-        <>
-          Muitos bancos não seguem todas as regras legais — e isso pode abrir
-          uma oportunidade real de proteger o seu patrimônio.
         </>
       ),
       cards: {

@@ -22,6 +22,15 @@ function PropertyDefense({ colorMode }) {
         />
 
         <MotionDivDownToUp>
+          <p
+            className={`flex justify-center text-xl font-secondFont text-center text-white w-full mb-12  max-w-[600px] bg-primaryDark p-8 rounded-2xl`}
+          >
+            Muitos bancos não seguem todas as regras legais — e isso pode abrir
+            uma oportunidade real de proteger o seu patrimônio.
+          </p>
+        </MotionDivDownToUp>
+
+        <MotionDivDownToUp>
           <div className="grid tablet2:grid-cols-2 gap-6 mb-6">
             {listCard.map((item, index) => (
               <div

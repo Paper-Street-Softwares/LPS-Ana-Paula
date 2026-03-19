@@ -86,12 +86,12 @@ function CardsImportants({
             <h1 className="font-bold text-3xl">!</h1>
           </div>
           <h1
-            className={`font-secondFont font-bold text-lg mb-2 ${text} transition-all`}
+            className={`font-secondFont font-bold text-xl leading-6 mb-2 ${text} transition-all`}
           >
             {title}
           </h1>
           <p
-            className={`text-md font-secondFont font-light text-black transition-all`}
+            className={`text-md font-secondFont text-lg leading-6 font-light text-black transition-all`}
           >
             {paragraph}
           </p>

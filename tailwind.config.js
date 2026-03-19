@@ -23,7 +23,7 @@ export default {
       colors: {
         // Principais
         primaryDark: "#061824",
-        primaryLight: "#FFFFFF",
+        primaryLight: "#F9DC78",
         secondary: "#E0E2E9",
         terciary: "#F1F3F7",
         quartenary: "#FAFBFC",
