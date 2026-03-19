@@ -91,7 +91,7 @@ function CardsImportants({
             {title}
           </h1>
           <p
-            className={`text-sm font-secondFont font-light ${textOpacity} transition-all`}
+            className={`text-md font-secondFont font-light text-black transition-all`}
           >
             {paragraph}
           </p>

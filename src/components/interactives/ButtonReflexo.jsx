@@ -75,7 +75,7 @@ export default function ButtonReflexo({
         relative overflow-hidden inline-flex items-center justify-center
         ${colors}
         ${spacing}
-        font-normal font-secondFont rounded-full text-lg
+        font-normal font-secondFont rounded-lg text-lg
         transition-all scale-100 hover:scale-90 duration-500
         ${shadowClass}
         gap-3 text-paragraph3 tablet1:text-paragraph4
@@ -94,7 +94,7 @@ export default function ButtonReflexo({
       )}
 
       <span className="relative z-10 flex items-center gap-3">
-        {icon && <span>{icon}</span>}
+        {icon && <span className="">{icon}</span>}
         {label}
       </span>
     </a>

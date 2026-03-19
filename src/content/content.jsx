@@ -162,7 +162,11 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: <>Quero analisar meu caso agora</>,
+      ctaButtonText: (
+        <>
+          Quero analisar <br /> meu caso agora
+        </>
+      ),
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
         icon: <> {/* ⚠️ */}</>,
@@ -297,7 +301,11 @@ const content = {
           e o seu patrimônio.
         </>
       ),
-      ctaButtonText: <>Quero analisar meu caso agora</>,
+      ctaButtonText: (
+        <>
+          Quero analisar <br /> meu caso agora
+        </>
+      ),
     },
     defenseSection: {
       miniTag: <>Defesa contra leilão de imóvel</>,
@@ -325,7 +333,8 @@ const content = {
           ),
           container: (
             <>
-              • Falta de notificação pessoal do proprietário <br />
+              • Falta de notificação pessoal do proprietário
+              <br />
               • Irregularidades na consolidação da propriedade <br />
               • Negativa do direito de quitar a dívida antes do leilão <br />•
               Falhas na condução dos leilões exigidos por lei <br /> • Imóvel
@@ -357,7 +366,11 @@ const content = {
           ),
         },
       },
-      ctaButtonText: <>Quero analisar meu caso agora</>,
+      ctaButtonText: (
+        <>
+          Quero analisar <br /> meu caso agora
+        </>
+      ),
     },
     features: {
       miniTag: <>Atuação Jurídica</>,
@@ -480,7 +493,11 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
       },
-      ctaButtonText: <>Quero analisar meu caso agora</>,
+      ctaButtonText: (
+        <>
+          Quero analisar <br /> meu caso agora
+        </>
+      ),
     },
     cardsSection: {
       miniTag: <>A_Definir</>,
@@ -576,7 +593,11 @@ const content = {
           },
         },
       },
-      ctaButtonText: <>Falar diretamente comigo</>,
+      ctaButtonText: (
+        <>
+          Falar diretamente <br /> comigo
+        </>
+      ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p className="font-secondFont">
@@ -647,7 +668,12 @@ const content = {
           topic5: <>Agilidade para avaliar medidas urgentes</>,
         },
       },
-      ctaButtonText: <>Quero analisar meu caso agora</>,
+      ctaButtonText: (
+        <>
+          Quero analisar <br />
+          meu caso agora
+        </>
+      ),
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -720,7 +746,11 @@ const content = {
           cardDescription: <>Se houver irregularidade, iniciamos as medidas.</>,
         },
       },
-      ctaButtonText: <>Entrar em contato agora</>,
+      ctaButtonText: (
+        <>
+          Entrar em contato <br /> agora
+        </>
+      ),
     },
     blog: {
       miniTag: <>A_Definir</>,
