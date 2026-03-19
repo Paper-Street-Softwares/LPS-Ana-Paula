@@ -192,9 +192,14 @@ function HeroTemplateNovo({
                     </svg>
                   }
                   link={content.texts.links.ctaWhatsapp}
-                  label={content.texts.hero.ctaButtonText}
+                  label={
+                    <p>
+                      Quero analisar <br className="block phone2:hidden" /> meu
+                      caso agora
+                    </p>
+                  }
                   colorMode={colorMode}
-                  className="clickevent my-0 text-[8px] phone2:text-paragraph3 tablet1:text-paragraph4"
+                  className="clickevent my-0 text-paragraph4 tablet1:text-paragraph4"
                 />
 
                 <ButtonReflexo

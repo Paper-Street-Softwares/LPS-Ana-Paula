@@ -59,7 +59,7 @@ export default function ButtonReflexo({
   const colors = variant === "secondary" ? secondaryColors : primaryColors;
 
   const shineColor = shineClass ?? shineThemes[colorMode];
-  const spacing = padding || "px-10 py-6";
+  const spacing = padding || "px-8 py-6 md:px-10 md:py-6";
 
   if (id === "ligar" && !showGlobalButton && !emergency) {
     return null;
