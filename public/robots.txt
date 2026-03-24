@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.santosdonascimento.com/sitemap.xml`
+Sitemap: https://anulacaodeleilao.santosdonascimento.com/sitemap.xml
