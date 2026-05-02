@@ -65,13 +65,13 @@ export const infos = {
   domain: "santosdonascimento.com", // Sem "www"
   phone: {
     ddd: "61",
-    firstPart: "99827", // Apenas os 5 primeiros números (incluindo o 9)
+    firstPart: "99296", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "2210", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "00",
-    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0000", // Apenas os 4 últimos números
+    firstPart: "", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "", // Apenas os 4 últimos números
   },
   phoneTerciario: {
     ddd: "00",
@@ -147,14 +147,14 @@ const content = {
       FirstPart: <span>Seu imóvel foi levado a</span>,
       Destaque: (
         <>
-          <span className="destaque relative italic font-light">leilão</span>?
+          <span className="relative italic font-light destaque">leilão</span>?
         </>
       ),
       SecondPart: <span></span>,
       subtitle: (
         <p className="">
           Saiba quando{" "}
-          <span className="text-primaryLight font-bold">
+          <span className="font-bold text-primaryLight">
             {" "}
             o leilão pode ser anulado
           </span>{" "}
@@ -297,7 +297,7 @@ const content = {
       },
       fraseObs: (
         <p>
-          <span className="text-destaques font-bold uppercase">
+          <span className="font-bold uppercase text-destaques">
             Você não precisa enfrentar essa situação sozinho!
           </span>
           <br />
@@ -653,7 +653,7 @@ const content = {
       ),
       subtitle: (
         <div>
-          <p className="mb-6 font-secondFont text-primaryLight uppercase">
+          <p className="mb-6 uppercase font-secondFont text-primaryLight">
             Clique no botão abaixo! <br />
             Nossa equipe está pronta para analisar o seu caso e te ajudar.
           </p>
